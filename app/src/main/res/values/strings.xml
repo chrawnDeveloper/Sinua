@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sínua</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sínua</string>
+    <string name="nav_header_subtitle">Contador de Calorias</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_inicio">Início</string>
+    <string name="nav_credito">Créditos</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bmrMulher">(10xWeight) + (6.25xHeight) - (5xAge) - 161</string>
+    <string name="bmrHomen">(10xWeight) + (6.25xHeight) - (5xAge) + 5 </string>
+
+    <string name="menu_me">Sobre mim</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_history">Histórico Alimentar</string>
+    <string name="menu_credit">Créditos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

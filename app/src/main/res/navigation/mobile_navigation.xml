@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_me"
+        android:name="com.conde.cc_contadordecalorias.ui.me.MeFragment"
+        android:label="@string/menu_me"
+        tools:layout="@layout/fragment_me" />
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.conde.cc_contadordecalorias.ui.home.InicioFragment"
+        android:label="@string/nav_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.conde.cc_contadordecalorias.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_credit"
+        android:name="com.conde.cc_contadordecalorias.ui.credit.CreditFragment"
+        android:label="@string/menu_credit"
+        tools:layout="@layout/fragment_credit" />
+</navigation>
